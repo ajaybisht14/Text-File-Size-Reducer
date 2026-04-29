@@ -4,6 +4,7 @@ void writeBits(ofstream &out,string encoded ) {
     int bitCount= 0;
     int edge =0;
 
+    
     for ( char bit:encoded){
         byte = (byte <<1) |(bit -'0');
         bitCount++;
