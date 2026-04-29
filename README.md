@@ -1,10 +1,10 @@
-# 📦 Huffman File Compression Tool
+#  Huffman File Compression Tool
 
 A C++ implementation of **Huffman Coding Algorithm** to compress and decompress files efficiently.
 
 ---
 
-## 📌 Overview
+##  Overview
 
 This project implements **lossless data compression** using Huffman Encoding. It reduces file size by assigning variable-length binary codes to characters based on their frequency.
 
@@ -13,7 +13,7 @@ This project implements **lossless data compression** using Huffman Encoding. It
 
 ---
 
-## 🧠 Concepts Used
+##  Concepts Used
 
 * Greedy Algorithms
 * Binary Trees
@@ -22,16 +22,18 @@ This project implements **lossless data compression** using Huffman Encoding. It
 
 ---
 
-## ⚙️ Features
+## Features
 
-* 📂 Compress text files into encoded format
-* 🔓 Decompress encoded files back to original
-* ⚡ Efficient memory usage
-* 🧾 Custom file handling implementation
+* Compress text files into encoded format
+*  Decompress encoded files back to original
+*  Efficient memory usage
+* Custom file handling implementation
+* Download compressed and decompressed file
+* Structured ui
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 copy/
@@ -48,7 +50,7 @@ copy/
 
 ---
 
-## 🚀 How It Works
+##  How It Works
 
 1. Read input file
 2. Calculate frequency of each character
@@ -62,23 +64,26 @@ For decompression:
 
 ---
 
-## 🛠️ How to Run
+##  How to Run
 
-### 🔧 Compile
+###  Compile
 
 ```bash
 g++ main.cpp huffman.cpp file_handler.cpp bits.cpp -o huffman
 ```
 
-### ▶️ Run
+### Run
 
 ```bash
 ./huffman
 ```
+```bash
+streamlit run app.py
+```
 
 ---
 
-## 📊 Example
+##  Example
 
 Input:
 
@@ -92,18 +97,11 @@ Encoded Output (example):
 0 0 0 10 10 11
 ```
 
-Compressed size < Original size ✔️
+Compressed size < Original size 
 
 ---
 
-## 📈 Future Improvements
 
-* 📁 Support for binary files (images, PDFs)
-* 🖥️ GUI interface
-* ⚡ Faster compression using multithreading
-* 📊 Compression ratio analysis
-
----
 
 ## 🤝 Contributing
 
@@ -111,10 +109,6 @@ Feel free to fork this repo and submit pull requests.
 
 ---
 
-## 👨‍💻 Author
 
-**Ajay Bisht**
 
----
-
-⭐ Star this repo if you found it useful!
+Star this repo if you found it useful!
